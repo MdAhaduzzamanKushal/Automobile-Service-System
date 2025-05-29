@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Registration - Automobile Platform</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking External CSS -->
+</head>
+<body>
+
+    <h2>Seller Registration - Automobile Platform</h2>
+
+    <form method="post">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <table>
+                <tr>
+                    <td><label for="full_name">Full Name:</label></td>
+                    <td><input type="text" id="full_name" placeholder="John Doe"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthdate">Date of Birth:</label></td>
+                    <td><input type="date" id="birthdate"></td>
+                </tr>
+                <tr>
+                    <td><label for="personal_email">Email Address:</label></td>
+                    <td><input type="email" id="personal_email" placeholder="email@example.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="personal_phone">Phone Number:</label></td>
+                    <td><input type="tel" id="personal_phone" placeholder="123-456-7890"></td>
+                </tr>
+                <tr>
+                    <td><label for="personal_address">Address:</label></td>
+                    <td><textarea id="personal_address" placeholder="Street, City, State, Zip Code"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Information:</legend>
+            <table>
+                <tr>
+                    <td><label for="bname">Business Name:</label></td>
+                    <td><input type="text" id="bname" placeholder="ABC Auto Sales"></td>
+                </tr>
+                <tr>
+                    <td><label for="business_type">Business Type:</label></td>
+                    <td>
+                        <select id="business_type">
+                            <option value="dealer">Car Dealer</option>
+                            <option value="service">Service Center</option>
+                            <option value="spare_parts">Spare Parts Seller</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="business_address">Business Address:</label></td>
+                    <td><textarea id="business_address" placeholder="Street, City, State, Zip Code"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="business_phone">Business Contact Number:</label></td>
+                    <td><input type="tel" id="business_phone" placeholder="123-456-7890"></td>
+                </tr>
+                <tr>
+                    <td><label for="business_email">Business Email:</label></td>
+                    <td><input type="email" id="business_email" placeholder="business@example.com"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Login Credentials:</legend>
+            <table>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" placeholder="Enter your username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" placeholder="Enter password"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirm_password">Confirm Password:</label></td>
+                    <td><input type="password" id="confirm_password" placeholder="Re-enter password"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <table>
+            <tr>
+                <td colspan="2"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>

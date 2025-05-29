@@ -1,0 +1,58 @@
+/* Selector 1: Styling the form container */
+form {
+    max-width: 600px;  /* Using Max Width */
+    margin: 20px auto; /* Centering Form */
+    padding: 20px;
+    border: 2px solid #333; /* Adding Border */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Selector 2: Styling fieldsets */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+/* Selector 3: Styling Input Fields */
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block; /* Using Inline Block */
+}
+
+/* Selector 4: Styling Submit Button */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block; /* Using Display Property */
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Selector 5: Using Position Property */
+h2 {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 10px;
+    z-index: 10; /* Applying z-index */
+    text-align: center;
+}
+
+/* Overflow Property Example */
+textarea {
+    overflow: auto; /* Enables Scroll if Content Overflows */
+    resize: vertical;
+}
